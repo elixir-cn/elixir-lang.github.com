@@ -1,5 +1,5 @@
 ---
-title: "Learning resources"
+title: "学习资源"
 section: learning
 layout: default
 ---
@@ -12,7 +12,7 @@ Our website provides a [Getting Started](/getting-started/introduction.html) gui
 
 The Elixir Community has also produced plenty of resources to explore Elixir from different backgrounds and other perspectives. We are sure you will find a resource that follows your pace and interests.
 
-## Learn Elixir
+## 学习 Elixir
 
 <h4 class="resource">Programming Elixir 1.2</h4>
 
@@ -82,7 +82,7 @@ Red:4 is a fictional aerospace startup that needs your help! Through a book, a v
 <div class="clear"></div>
 
 
-## Screencasts
+## 视频教程
 
 <h4 class="resource">Elixir Sips</h4>
 
@@ -107,7 +107,7 @@ It's intended to help beginners get familiar with all of Elixir's features by bu
 
 <div class="clear"></div>
 
-## In-depth Resources
+## 更加深入的资源
 
 <h4 class="resource">Études for Elixir</h4>
 
@@ -134,4 +134,3 @@ Write code that writes code with Elixir macros. Macros make metaprogramming poss
 This book intends to be a little guide about how to be the Erlang medic in a time of war. It is first and foremost a collection of tips and tricks to help understand where failures come from, and a dictionary of different code snippets and practices that helped developers debug production systems that were built in Erlang.
 
 <div class="clear"></div>
-
