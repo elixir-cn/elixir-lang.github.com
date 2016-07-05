@@ -8,20 +8,21 @@ layout: default
     <img src="/images/contents/home-code.png" alt="Elixir Sample" class="archive-thumbnail" />
 
     <div class="entry-summary">
-      <p>Elixir is a dynamic, functional language designed for building scalable and maintainable applications.</p>
+      <p>Elixir 是一门动态函数式语言，它是为了创建可扩展，可维护的应用程序而设计的</p>
 
-      <p>Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems, while also being successfully used in web development and the embedded software domain.</p>
-
-      <p>To learn more about Elixir, check our <a href="/getting-started/introduction.html">getting started guide</a>. Or keep reading to get an overview of the platform, language and tools.</p>
+      <p>
+        Elixir 利用了 Erlang VM，它因为低延迟，分布式，容错而广受赞誉，同时也在 Web开发，嵌入式等领域也正在取得成功。
+      </p>
+      <p>想要获得更多关于 Elixir 的信息, 请查看 <a href="/getting-started/introduction.html">入门指南</a>。或者继续阅读下面的内容，以了解整个平台，语言，工具的概览情况。</p>
     </div>
   </div>
 
   <div class="hentry post">
-    <h3>Platform features</h3>
+    <h3>平台特性</h3>
   </div>
 
   <div class="hentry post">
-    <h4>Scalability</h4>
+    <h4>可扩展</h4>
     <div class="entry-summary">
 
       <p>All Elixir code runs inside lightweight threads of execution (called processes) that are isolated and exchange information via messages:</p>
@@ -47,7 +48,7 @@ end
   </div>
 
   <div class="hentry post">
-    <h4>Fault-tolerance</h4>
+    <h4>容错</h4>
 
     <div class="entry-summary">
       <p>The unavoidable truth about software running in production is that <i>things will go wrong</i>. Even more when we take network, file systems and other third-party resources into account.</p>
@@ -68,11 +69,11 @@ Supervisor.start_link(children, strategy: :one_for_one)
   </div>
 
   <div class="hentry post">
-    <h3>Language features</h3>
+    <h3>语言特性</h3>
   </div>
 
   <div class="hentry post">
-    <h4>Functional programming</h4>
+    <h4>函数式编程</h4>
 
     <div class="entry-summary">
       <p>Functional programming promotes a coding style that helps developers write code that is short, fast, and maintainable. For example, pattern matching allows developers to easily destructure data and access its contents:</p>
@@ -98,7 +99,7 @@ serve_drinks User.get("John Doe")
   </div>
 
   <div class="hentry post">
-    <h4>Extensibility and DSLs</h4>
+    <h4>扩展能力和 DSL</h4>
 
     <div class="entry-summary">
       <p>Elixir has been designed to be extensible, letting developers naturally extend the language to particular domains, in order to increase their productivity.</p>
@@ -120,11 +121,11 @@ end
   </div>
 
   <div class="hentry post">
-    <h3>Tooling features</h3>
+    <h3>工具特性</h3>
   </div>
 
   <div class="hentry post">
-    <h4>A growing ecosystem</h4>
+    <h4>一个快速增长的生态环境</h4>
 
     <div class="entry-summary">
       <p>Elixir ships with a great set of tools to ease development. <a href="/docs/stable/mix/">Mix is a build tool</a> that allows you to easily create projects, manage tasks, run tests and more:</p>
@@ -144,7 +145,7 @@ Finished in 0.04 seconds (0.04s on load, 0.00s on tests)
   </div>
 
   <div class="hentry post">
-    <h4>Interactive development</h4>
+    <h4>交互式开发</h4>
 
     <div class="entry-summary">
       <p>Tools like <a href="/docs/stable/iex/">IEx (Elixir&rsquo;s interactive shell)</a> are able to leverage many aspects of the language and platform to provide auto-complete, debugging tools, code reloading, as well as nicely formatted documentation:</p>
@@ -161,7 +162,7 @@ iex> i "Hello, World"      # Prints information about the given data type
   </div>
 
   <div class="hentry post">
-    <h4>Erlang compatible</h4>
+    <h4>Erlang 兼容</h4>
 
     <div class="entry-summary">
       <p>Elixir runs on the Erlang VM giving developers complete access to Erlang&rsquo;s ecosystem, used by companies like <a href="https://www.heroku.com">Heroku</a>, <a href="http://www.whatsapp.com">WhatsApp</a>, <a href="https://klarna.com">Klarna</a>, <a href="http://basho.com">Basho</a> and many more to build distributed, fault-tolerant applications. An Elixir programmer can invoke any Erlang function with no runtime cost:</p>
@@ -175,4 +176,3 @@ iex> :crypto.md5("Using crypto from Erlang OTP")
     </div>
   </div>
 </div>
-
